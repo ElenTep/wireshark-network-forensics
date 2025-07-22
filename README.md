@@ -1,10 +1,11 @@
 # wireshark-network-forensics
 This project simulates a real-world cybersecurity investigation using Wireshark to analyze a PCAP file from a simulated network breach. Acting as a Tier 1–2 SOC Analyst, I identified Indicators of Compromise (IOCs), attacker behavior, and possible lateral movement across a corporate LAN environment.
 
-# 🕵️ Wireshark Network Forensics: Detecting C2 and Lateral Movement in Simulated Breach
+# 🕵️ Wireshark Network Forensics: Detecting C2 and Lateral Movement in Simulated Breach Scenario
 
 ## Overview
 This project simulates a real-world network forensics investigation. Using Wireshark, I analyzed a PCAP file from a simulated security breach to identify suspicious behavior, indicators of compromise (IOCs), and possible lateral movement. This exercise demonstrates Tier 1–2 SOC Analyst workflows for analyzing network activity and reporting findings.
+This GitHub project presents a network forensic investigation using Wireshark, simulating a real-world breach scenario.
 
 ## Objectives
 - ✅ Detect beaconing, C2 communications, and suspicious DNS/HTTP activity  
@@ -33,7 +34,8 @@ This project simulates a real-world network forensics investigation. Using Wires
 - 📝 Timeline and findings in Markdown  
 
 ## Folder Structure
-/evidence
+![Beaconing Pattern](evidence/beaconing-pattern.png)
+
 ├── dns-queries.png
 ├── beaconing-pattern.png
 ├── c2-http-traffic.png
@@ -52,3 +54,4 @@ Investigation_Report.pdf
 ## Author
 **Elena Teplyakova**  
 Cybersecurity Analyst | CompTIA CySA+, A+ | Splunk Core Certified
+[Connect with me on LinkedIn](https://www.linkedin.com/in/elena-tepliakova-732a662a5/)
