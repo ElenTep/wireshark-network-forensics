@@ -7,6 +7,16 @@ This project simulates a real-world cybersecurity investigation using Wireshark 
 This project simulates a real-world network forensics investigation. Using Wireshark, I analyzed a PCAP file from a simulated security breach to identify suspicious behavior, indicators of compromise (IOCs), and possible lateral movement. This exercise demonstrates Tier 1–2 SOC Analyst workflows for analyzing network activity and reporting findings.
 This GitHub project presents a network forensic investigation using Wireshark, simulating a real-world breach scenario.
 
+## Table of Contents
+- [Overview](#overview)
+- [Objectives](#objectives)
+- [Environment Details](#environment-details)
+- [MITRE ATT&CK Techniques Observed](#mitre-attck-techniques-observed)
+- [Deliverables](#deliverables)
+- [Folder Structure](#folder-structure)
+- [Tools Used](#tools-used)
+- [Author](#author)
+
 ## Objectives
 - ✅ Detect beaconing, C2 communications, and suspicious DNS/HTTP activity  
 - ✅ Identify compromised host and user  
@@ -31,7 +41,6 @@ This GitHub project presents a network forensic investigation using Wireshark, s
 - 📄 `Incident Analysis Report.pdf`  [Incident Analysis Report.pdf](https://github.com/user-attachments/files/21376578/Incident.Analysis.Report.pdf)
 - 🖼️ Annotated screenshots in `/evidence/`  
 - 🧠 `IOCs_summary.txt` 
-
 - 📝 Timeline and findings in Markdown  
 
 ## Folder Structure
