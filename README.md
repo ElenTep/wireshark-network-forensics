@@ -46,7 +46,8 @@ This GitHub project presents a network forensic investigation using Wireshark, s
   - `smb-lateral.png`
 
 - 📝 `IOCs_summary.txt` — Indicators of Compromise
-- 📄 `Wireshark_Investigation_Report.pdf` — Full analysis report
+- 📄 `Wireshark_Investigation_Report.pdf`[Wireshark_Investigation_Report.pdf](https://github.com/user-attachments/files/21390273/Wireshark_Investigation_Report.pdf)
+ — Full analysis report
 
 
 ## Tools Used
