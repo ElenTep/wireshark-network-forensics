@@ -50,7 +50,7 @@ This GitHub project presents a network forensic investigation using Wireshark, s
 ### 🔍 Key Evidence
 
 **1. DNS Requests (Suspicious Queries)**
-![DNS Queries](evidence/dns-queries.png)
+![DNS Queries] <img width="1341" height="800" alt="dns-queries" src="https://github.com/user-attachments/assets/d677ab02-363e-4ef1-a661-24ff3f695a2c" />
 
 **2. Beaconing Pattern (Regular Intervals)**
 ![Beaconing Pattern](evidence/beaconing-pattern.png)
