@@ -40,21 +40,39 @@ This GitHub project presents a network forensic investigation using Wireshark, s
 ## Folder Structure
 
 - 🖼️ `/evidence/` — contains key annotated screenshots:
-  - `dns-queries.png`
-  - `beaconing-pattern.png`
-  - `c2-http-traffic.png`
-  - `smb-lateral.png`
+  - `dns-queries.png` <img width="1341" height="800" alt="dns-queries" src="https://github.com/user-attachments/assets/d677ab02-363e-4ef1-a661-24ff3f695a2c" />
+  - `beaconing-pattern.png` <img width="1261" height="879" alt="beaconing-pattern" src="https://github.com/user-attachments/assets/737d2ada-3234-4828-a46f-0cedd8b52a5b" />
+  - `c2-http-traffic.png` <img width="1282" height="818" alt="c2-http-traffic" src="https://github.com/user-attachments/assets/bdf9b55e-f6b5-4956-85c4-600cbfedfd32" />
+  - `smb-lateral.png` <img width="1290" height="797" alt="SMB Lateral Movement Attempt" src="https://github.com/user-attachments/assets/b05c47ae-c2f2-4e6c-b015-a7dc09f08bc4" />
+      
+- 📄 `Wireshark_Investigation_Report.pdf`[Wireshark_Investigation_Report.pdf](https://github.com/user-attachments/files/21391004/Wireshark_Investigation_Report.pdf)
 
-- 📝 `IOCs_summary.txt` — Indicators of Compromise
-- 📄 `Wireshark_Investigation_Report.pdf`[Wireshark_Investigation_Report.pdf](https://github.com/user-attachments/files/21390273/Wireshark_Investigation_Report.pdf)
- — Full analysis report
 
+
+## 🔎 Summary of Key Findings
+
+- Infected host: `10.6.13.133 (DESKTOP-5AVE44C)`
+- C2 traffic over HTTP to suspicious domain `hillcoweb.com`
+- Repeated DNS beaconing to remote servers
+- Possible data exfiltration via PowerShell POST request
+- Lateral movement signs using SMB (10.6.13.133 → 10.6.13.5)
+
+## 🧪 Investigation Flow
+
+1. Opened PCAP in Wireshark
+2. Filtered for suspicious DNS (`dns.qry.name contains ".com"`)
+3. Identified beaconing using `ip.addr == 10.6.13.133` and `http.request`
+4. Followed TCP streams for POST requests
+5. Noted internal SMB connection (10.6.13.5), suspecting lateral movement
+6. Mapped TTPs to MITRE ATT&CK
+7. Documented IOCs
 
 ## Tools Used
 - Wireshark  
 - Markdown  
 - MITRE ATT&CK Navigator  
-- Screenshot annotation tools  
+- Screenshot annotation tools
+  
 
 ## Author
 **Elena Teplyakova**  
