@@ -38,7 +38,8 @@ This GitHub project presents a network forensic investigation using Wireshark, s
 | T1021.002    | Remote Services: SMB                      | Lateral movement via SMB      |
 
 ## Deliverables
-- 📄 `Incident Analysis Report.pdf` [Wireshark_Investigation_Report.pdf](https://github.com/user-attachments/files/21388427/Wireshark_Investigation_Report.pdf)
+- 📄 `Incident Analysis Report.pdf` [Wireshark_Investigation_Report.pdf](https://github.com/user-attachments/files/21388945/Wireshark_Investigation_Report.pdf)
+
 - 🖼️ Annotated screenshots in `/evidence/`  
 - 🧠 `IOCs_summary.txt` 
 - 📝 Timeline and findings in Markdown  
