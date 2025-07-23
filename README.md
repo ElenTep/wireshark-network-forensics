@@ -47,6 +47,19 @@ This GitHub project presents a network forensic investigation using Wireshark, s
       
 - 📄 `Wireshark_Investigation_Report.pdf`[Wireshark_Investigation_Report.pdf](https://github.com/user-attachments/files/21391004/Wireshark_Investigation_Report.pdf)
 
+### 🔍 Key Evidence
+
+**1. DNS Requests (Suspicious Queries)**
+![DNS Queries](evidence/dns-queries.png)
+
+**2. Beaconing Pattern (Regular Intervals)**
+![Beaconing Pattern](evidence/beaconing-pattern.png)
+
+**3. HTTP POST with System Info (C2)**
+![C2 Communication](evidence/c2-http-traffic.png)
+
+**4. SMB Lateral Movement Attempt**
+![SMB Lateral](evidence/smb-lateral.png)
 
 
 ## 🔎 Summary of Key Findings
