@@ -37,23 +37,16 @@ This GitHub project presents a network forensic investigation using Wireshark, s
 | T1043        | Commonly Used Port                        | Suspicious outbound traffic   |
 | T1021.002    | Remote Services: SMB                      | Lateral movement via SMB      |
 
-## Deliverables
-- 📄 `Incident Analysis Report.pdf` [Wireshark_Investigation_Report.pdf](https://github.com/user-attachments/files/21389027/Wireshark_Investigation_Report.pdf)
-- 🖼️ Annotated screenshots in `/evidence/`  
-- 🧠 `IOCs_summary.txt` 
-- 📝 Timeline and findings in Markdown  
-
 ## Folder Structure
-![Beaconing Pattern](evidence/beaconing-pattern.png)
-[View Full Report (PDF)](https://github.com/ElenTep/wireshark-network-forensics/blob/main/Investigation_Report.pdf)
 
-├── dns-queries.png
-├── beaconing-pattern.png
-├── c2-http-traffic.png
-├── smb-lateral.png
+- 🖼️ `/evidence/` — contains key annotated screenshots:
+  - `dns-queries.png`
+  - `beaconing-pattern.png`
+  - `c2-http-traffic.png`
+  - `smb-lateral.png`
 
-IOCs_summary.txt
-Wireshark_Investigation_Report.pdf
+- 📝 `IOCs_summary.txt` — Indicators of Compromise
+- 📄 `Wireshark_Investigation_Report.pdf` — Full analysis report
 
 
 ## Tools Used
