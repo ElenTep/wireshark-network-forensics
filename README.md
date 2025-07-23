@@ -30,7 +30,7 @@ This GitHub project presents a network forensic investigation using Wireshark, s
 - **Domain Controller:** `10.6.13.3 (WIN-DQL4WFWJXQ4)`  
 - **Infected Host:** `10.6.13.133 (DESKTOP-5AVE44C)`  
 
-## MITRE ATT&CK Techniques Observed
+## MITRE ATT&CK Techniques Observed 
 | Technique ID | Name                                      | Description                   |
 |--------------|-------------------------------------------|-------------------------------|
 | T1071.001    | Application Layer Protocol: Web Protocols | C2 over HTTP                  |
@@ -38,13 +38,14 @@ This GitHub project presents a network forensic investigation using Wireshark, s
 | T1021.002    | Remote Services: SMB                      | Lateral movement via SMB      |
 
 ## Deliverables
-- 📄 `Incident Analysis Report.pdf`  [Incident Analysis Report.pdf](https://github.com/user-attachments/files/21376578/Incident.Analysis.Report.pdf)
+- 📄 `Incident Analysis Report.pdf` [Wireshark_Investigation_Report.pdf](https://github.com/user-attachments/files/21388427/Wireshark_Investigation_Report.pdf)
 - 🖼️ Annotated screenshots in `/evidence/`  
 - 🧠 `IOCs_summary.txt` 
 - 📝 Timeline and findings in Markdown  
 
 ## Folder Structure
 ![Beaconing Pattern](evidence/beaconing-pattern.png)
+[View Full Report (PDF)](https://github.com/ElenTep/wireshark-network-forensics/blob/main/Investigation_Report.pdf)
 
 ├── dns-queries.png
 ├── beaconing-pattern.png
@@ -52,7 +53,7 @@ This GitHub project presents a network forensic investigation using Wireshark, s
 ├── smb-lateral.png
 
 IOCs_summary.txt
-Investigation_Report.pdf
+Wireshark_Investigation_Report.pdf
 
 
 ## Tools Used
